@@ -9,4 +9,4 @@ const schema = yup.object({
   }),
 });
 
-export const userSchema = validate(schema);
+export const validateUserSchema = validate(schema);
